@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms in html</h1>
+
+    <h3>Please fill the form below</h3>
+    <p>All fields are required</p>
+    <form>
+        <label for="fname">First name</label>
+        <input type-"text" name="fname" id="fname">
+        <br><br>
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname" style="width: 300px;">
+        <br><br>
+         <label for="date">Date of birth</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email">
+        <br><br>
+        <label for="phone">Phone number</label>
+        <input type="tel" name="Phone" id="Phone">
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="Country">Country</label>
+        <select name="Country" id="Country">
+            <option value="Country" selected>choose option</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Rwanda">Rwanda</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Register">
+        <input type="reset"value="reset">
+        <input type="button"value="cancel" onclick="alert('Form cancelled')">
+    </form>
+    <br><br>
+    <a href="index.html">back to index.html</a>
+</body>
+</html>
